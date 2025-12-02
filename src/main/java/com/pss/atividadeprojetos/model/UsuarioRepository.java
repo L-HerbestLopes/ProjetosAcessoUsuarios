@@ -35,4 +35,8 @@ public class UsuarioRepository {
         
         return false;
     }
+    
+    public boolean estaVazio() {
+        return usuarios.isEmpty();
+    }
 }
