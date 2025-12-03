@@ -2,7 +2,7 @@
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/model/Usuario.java
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/model/UsuarioRepository.java
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/AdministradorAcessoStrategy.java
-/home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/CadastrarUsuarioPresenter.java
+/home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/CadastroInicialPresenter.java
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/NaoUsuarioAcessoStrategy.java
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/PrimeiroAdministradorAcessoStrategy.java
 /home/lu/NetBeansProjects/atividadeprojetos/src/main/java/com/pss/atividadeprojetos/presenter/UsuarioAcessoStrategy.java

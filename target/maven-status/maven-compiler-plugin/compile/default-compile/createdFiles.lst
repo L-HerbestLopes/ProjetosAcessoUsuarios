@@ -1,7 +1,7 @@
 com/pss/atividadeprojetos/Atividadeprojetos.class
 com/pss/atividadeprojetos/model/Usuario.class
 com/pss/atividadeprojetos/presenter/UsuarioComumAcessoStrategy.class
-com/pss/atividadeprojetos/presenter/CadastrarUsuarioPresenter.class
+com/pss/atividadeprojetos/presenter/CadastroInicialPresenter.class
 com/pss/atividadeprojetos/presenter/PrimeiroAdministradorAcessoStrategy.class
 com/pss/atividadeprojetos/model/UsuarioRepository.class
 com/pss/atividadeprojetos/presenter/NaoUsuarioAcessoStrategy.class

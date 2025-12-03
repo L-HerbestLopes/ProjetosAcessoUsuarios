@@ -5,11 +5,11 @@ import com.pss.atividadeprojetos.model.UsuarioRepository;
 
 
 // classe será usada para criar e editar usuarios
-public class CadastrarUsuarioPresenter {
+public class CadastroInicialPresenter {
     private Usuario usuario;
     private UsuarioRepository repository;
     
-    public CadastrarUsuarioPresenter(UsuarioRepository repository) {
+    public CadastroInicialPresenter(UsuarioRepository repository) {
         if(repository == null) {
             throw new RuntimeException("Instância de UsuarioRepository não foi inicializada corretamente.");
         }
@@ -20,7 +20,7 @@ public class CadastrarUsuarioPresenter {
     }
     
     private void cancelar() {
-        //...
+        // ...
     }
     
     private void concluir() {
@@ -28,16 +28,8 @@ public class CadastrarUsuarioPresenter {
         String email = "pedro.silva@gmail.com";
         String senha = "123";
         
-        UsuarioAcessoStrategy acesso;
+        usuario = new Usuario(nome, email, senha, new PrimeiroAdministradorAcessoStrategy());
         
-        if(repository.estaVazio()) {
-            acesso = new PrimeiroAdministradorAcessoStrategy();
-        }
-        else {
-            acesso = new NaoUsuarioAcessoStrategy();
-        }
-        
-        usuario = new Usuario(nome, email, senha, acesso);
         repository.incluir(usuario);
     }
 }
