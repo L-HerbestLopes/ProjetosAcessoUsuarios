@@ -1,6 +1,6 @@
 package com.pss.atividadeprojetos.model;
 
-import com.pss.atividadeprojetos.presenter.UsuarioAcessoStrategy;
+import com.pss.atividadeprojetos.presenter.acesso.UsuarioAcessoStrategy;
 
 
 public class Usuario {
@@ -27,6 +27,10 @@ public class Usuario {
 
     public String getSenha() {
         return senha;
+    }
+    
+    public UsuarioAcessoStrategy getAcesso() {
+        return acesso;
     }
 
     @Override

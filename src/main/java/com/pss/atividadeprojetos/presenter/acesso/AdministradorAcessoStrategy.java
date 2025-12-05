@@ -1,4 +1,4 @@
-package com.pss.atividadeprojetos.presenter;
+package com.pss.atividadeprojetos.presenter.acesso;
 
 
 public class AdministradorAcessoStrategy implements UsuarioAcessoStrategy {

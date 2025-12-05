@@ -1,5 +1,6 @@
 package com.pss.atividadeprojetos.presenter;
 
+import com.pss.atividadeprojetos.presenter.acesso.PrimeiroAdministradorAcessoStrategy;
 import com.pss.atividadeprojetos.model.Usuario;
 import com.pss.atividadeprojetos.model.UsuarioRepository;
 

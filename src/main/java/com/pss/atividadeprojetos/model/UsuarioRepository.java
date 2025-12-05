@@ -16,6 +16,10 @@ public class UsuarioRepository {
         usuarios.add(usuario);
     }
     
+    public void remover(String nomeUsuario) {
+        usuarios.remove(get(nomeUsuario));
+    }
+    
     public Usuario get(String nomeUsuario) {
         for(Usuario usuario : usuarios) {
             if(usuario.getNome().equals(nomeUsuario)) {
